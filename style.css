@@ -1,0 +1,174 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #e8f5e9, #ffffff);
+    padding: 60px 0;
+}
+
+.hero-section h1 {
+    color: #198754;
+}
+
+.hero-section p {
+    color: #555;
+}
+
+
+/* Earth Circle */
+
+.eco-circle {
+    width: 250px;
+    height: 250px;
+
+    margin: auto;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 120px;
+
+    background-color: #d8f3dc;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ================= SECTION TITLE ================= */
+
+.section-title {
+    color: #198754;
+    font-weight: bold;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-box {
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #f8f9fa;
+
+    border-radius: 15px;
+
+    height: 100%;
+
+    transition: 0.3s;
+}
+
+.about-box:hover {
+    transform: translateY(-8px);
+}
+
+
+/* ================= FEATURES ================= */
+
+.features-section {
+    background-color: #f1f8f4;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+
+/* ================= CTA ================= */
+
+.cta-section {
+    background-color: #198754;
+    color: white;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background-color: #212529;
+}
+
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablet */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .eco-circle {
+        width: 200px;
+        height: 200px;
+
+        font-size: 90px;
+
+        margin-top: 40px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+    .hero-section {
+        padding: 40px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    .eco-circle {
+        width: 160px;
+        height: 160px;
+
+        font-size: 70px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+}
+
